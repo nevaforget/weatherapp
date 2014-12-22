@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.nevaforget.weatherapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Weatherapp</name>
+    <description>
+        Check the weather.
+    </description>
+    <author email="info@nevaforget.de" href="http://nevaforget.de">
+        Dominik Kressler
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="www/images/res/drawable-ldpi/ic_launcher.png" platform="android" density="ldpi" />
+	<icon src="www/images/res/drawable-mdpi/ic_launcher.png" platform="android" density="mdpi" />
+    <icon src="www/images/res/drawable-hdpi/ic_launcher.png" platform="android" density="hdpi" />
+	<icon src="www/images/res/drawable-xhdpi/ic_launcher.png" platform="android" density="xhdpi" />
+</widget>
