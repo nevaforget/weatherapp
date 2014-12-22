@@ -271,12 +271,23 @@ nav.hide
 				background:#fb5240;
 			}
 
+			#updatenow
+			{
+				position: absolute;
+				left: 50%;
+				transform:translateX(-50%);
+				-webkit-transform:translateX(-50%);
+				bottom:6rem;
+			}
+
 .btn
 {
 	background:#36c77b;
 	padding:.3rem;
 	cursor:pointer;
-	border-radius: 3px
+	border-radius: 3px;
+	text-decoration: none;
+	color:#fff;
 }
 
 .btn.navToggler

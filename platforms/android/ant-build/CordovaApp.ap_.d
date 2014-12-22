@@ -47,6 +47,7 @@ F:\Repos\weatherapp\platforms\android\assets\www\js \
 F:\Repos\weatherapp\platforms\android\assets\www\pages \
 F:\Repos\weatherapp\platforms\android\assets\www\plugins \
 F:\Repos\weatherapp\platforms\android\assets\www\sftp-config.json \
+F:\Repos\weatherapp\platforms\android\assets\www\version.json \
 F:\Repos\weatherapp\platforms\android\assets\www\css\fonts \
 F:\Repos\weatherapp\platforms\android\assets\www\css\styles.css \
 F:\Repos\weatherapp\platforms\android\assets\www\css\fonts\artillcleanweathericons-Regular.eot \

@@ -1,4 +1,3 @@
-// We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
 
 	/* ---------------------------------- Local Variables ---------------------------------- */
@@ -16,9 +15,14 @@
 
 	var current = "";
 
+	var version = 0.0;
 
 	/* --------------------------------- Event Registration -------------------------------- */
-	document.addEventListener('deviceready', init, false);
+	document.addEventListener('deviceready', function()
+	{
+		FastClick.attach(document.body);
+		init();
+	}, false);
 	$('document').ready(init);
 
 	eventHandler();
@@ -28,6 +32,26 @@
 
 	function init()
 	{
+
+		$.ajax({
+            type: "GET",
+            url: "http://nevaforget.de/wetter/version.json",
+            dataType: "json"
+        }).complete(function(response)
+        {	
+        	var response = response.responseText;
+        	json = $.parseJSON(response);
+        	var ver_new = Number(json.stable);
+
+        	if(ver_new > version)
+        	{
+        		$('#updater').removeClass('hidden');
+
+        		$('#exit').before('<a href="https://github.com/nevaforget/weatherapp/blob/master/Weatherapp.apk?raw=true" id="updatenow" class="btn">New version available!</a>');
+        	}
+        	
+        });
+
 
 		if (navigator.notification) { // Override default HTML alert with native dialog
 				window.alert = function (message) {
@@ -39,7 +63,7 @@
 						);
 				};
 		}
-		FastClick.attach(document.body);
+		
 		
  		switchView('index');
 
@@ -260,10 +284,6 @@
 		
 	}
 
-	// onSuccess Callback
-	// This method accepts a Position object, which contains the
-	// current GPS coordinates
-	//
 	var geo_succes = function(position) 
 	{
 		console.log('GEO event: success');
