@@ -1,2 +1,2 @@
-C:\Users\Dominik\Desktop\projects\weatherapp\platforms\android\ant-build\AndroidManifest.xml : \
-C:\Users\Dominik\Desktop\projects\weatherapp\platforms\android\AndroidManifest.xml \
+F:\Repos\weatherapp\platforms\android\ant-build\AndroidManifest.xml : \
+F:\Repos\weatherapp\platforms\android\AndroidManifest.xml \

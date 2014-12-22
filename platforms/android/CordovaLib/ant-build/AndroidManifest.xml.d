@@ -1,2 +1,2 @@
-C:\Users\Dominik\Desktop\projects\weatherapp\platforms\android\CordovaLib\ant-build\AndroidManifest.xml : \
-C:\Users\Dominik\Desktop\projects\weatherapp\platforms\android\CordovaLib\AndroidManifest.xml \
+F:\Repos\weatherapp\platforms\android\CordovaLib\ant-build\AndroidManifest.xml : \
+F:\Repos\weatherapp\platforms\android\CordovaLib\AndroidManifest.xml \
