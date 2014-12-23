@@ -48,6 +48,7 @@ F:\Repos\weatherapp\platforms\android\assets\www\pages \
 F:\Repos\weatherapp\platforms\android\assets\www\plugins \
 F:\Repos\weatherapp\platforms\android\assets\www\sftp-config.json \
 F:\Repos\weatherapp\platforms\android\assets\www\version.json \
+F:\Repos\weatherapp\platforms\android\assets\www\Weatherapp.apk \
 F:\Repos\weatherapp\platforms\android\assets\www\css\fonts \
 F:\Repos\weatherapp\platforms\android\assets\www\css\styles.css \
 F:\Repos\weatherapp\platforms\android\assets\www\css\fonts\artillcleanweathericons-Regular.eot \
@@ -109,7 +110,9 @@ F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-port-mdpi\s
 F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-port-xhdpi\screen.png \
 F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-xhdpi\icon.png \
 F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-xhdpi\ic_launcher.png \
+F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-xxhdpi\icon.png \
 F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-xxhdpi\ic_launcher.png \
+F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-xxxhdpi\icon.png \
 F:\Repos\weatherapp\platforms\android\assets\www\images\res\drawable-xxxhdpi\ic_launcher.png \
 F:\Repos\weatherapp\platforms\android\assets\www\images\res\values\strings.xml \
 F:\Repos\weatherapp\platforms\android\assets\www\images\res\xml\config.xml \

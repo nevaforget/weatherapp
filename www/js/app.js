@@ -47,7 +47,7 @@
         	{
         		$('#updater').removeClass('hidden');
 
-        		$('#exit').before('<a href="https://github.com/nevaforget/weatherapp/blob/master/Weatherapp.apk?raw=true" id="updatenow" class="btn">New version available!</a>');
+        		$('#exit').before('<a href="https://nevaforget.de/wetter/Weatherapp.apk" id="updatenow" class="btn">New version available!</a>');
         	}
         	
         });
